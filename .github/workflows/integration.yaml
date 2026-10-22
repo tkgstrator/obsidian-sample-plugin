@@ -36,7 +36,7 @@ jobs:
           bun-version: latest
       - name: Format
         run: |
-          bunx @biomejs/biome format src
+          bunx @biomejs/biome@1.8.3 format src
       - name: Lint
         run: |
-          bunx @biomejs/biome lint src
+          bunx @biomejs/biome@1.8.3 lint src
